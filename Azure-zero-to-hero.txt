@@ -1,0 +1,15 @@
+...................day 3.................
+example :- ssh -i /Usres/Saeed Pathan/Downloads/LINUX-VM_key.pem aureuser@ipaddress
+ans:-   ssh -i /Users/SaeedPathan/Downloads/LINUX-VM_key.pem azureuser@4.227.217.118
+ans2:ssh -i "/d/2024/LINUX-VM_key.pem" azureuser@4.227.217.118
+
+Q1.how to provide permission
+ex:-chmod 600 'location'
+ans:-chmod 600 'Usres/SaeedPathan/Downloads/LINUX-VM_key.pem'
+ans2:-chomd 600 d/2024/LINUX-VM_key.pem
+
+2.HOW TO INSTALL JAVA
+-sudo apt update
+-sudo apt install openjdk-11-jdk
+3.HOW TO DEPLOY JENKING APPLICAATION ON VM
+
