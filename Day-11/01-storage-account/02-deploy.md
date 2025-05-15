@@ -12,4 +12,8 @@ Switch to the folder where you have the `01-storage-account.json` or similar fil
 
 ```
 az deployment group create --resource-group vscode --template-file 01-storage-account.json
+
+--------how to check storage account name available-------
+az storage account check-name --name storagetestacc
+
 ```

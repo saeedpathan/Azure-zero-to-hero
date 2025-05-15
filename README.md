@@ -160,3 +160,4 @@
 - Review of Key Concepts
 - Interviews Questions and Practice Sessions
 ## Day 26: Azure Interview Preparion self
+update from desktop cmd
