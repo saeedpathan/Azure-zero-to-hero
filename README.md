@@ -161,3 +161,5 @@
 - Interviews Questions and Practice Sessions
 ## Day 26: Azure Interview Preparion self
 update from desktop cmd
+
+this code from remote machine
