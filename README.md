@@ -163,3 +163,6 @@
 update from desktop cmd
 
 this code from remote machine
+................
+I am learing devops course
+code update from local notepad
