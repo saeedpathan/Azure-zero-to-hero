@@ -160,9 +160,5 @@
 - Review of Key Concepts
 - Interviews Questions and Practice Sessions
 ## Day 26: Azure Interview Preparion self
-update from desktop cmd
 
-this code from remote machine
-................
-I am learing devops course
-code update from local notepad
+this code update from remote 19-05-2025
