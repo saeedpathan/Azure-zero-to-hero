@@ -55,10 +55,14 @@ Answer: Discuss configuring and managing self-hosted runners, ensuring security 
 Scenario: Your team has various roles with different access needs. How would you configure RBAC within Azure Pipelines to ensure users have appropriate permissions?
 
 Answer: Explain leveraging built-in roles and custom definitions to grant access to pipelines, repositories, and resources. Highlight the importance of least privilege and separation of duties principles.
+-->we have implemented RBAC(role-based-access control)where the devloper have write permission and QA engineer have only read permission manager also have read permission and devops engineer have a admin permission different cicd system RBAC have differnt
+we have implementing this RBAC we ensure write people haveing permission.
 
 ### Automating Infrastructure Provisioning with Pipelines:
-
+Q.how do you handle infrastrure as code in your organisation.
 Scenario: You want to automate infrastructure provisioning and deployment alongside your application code. How would you integrate infrastructure as code (IaC) tools like Terraform with Azure Pipelines?
+-->we are sing terrafarm or ARM template through cicd pipline in this cicd pipline we called them infrastructre pipline 
+any one want to implenet inforastrrce change in code  they have to go to git repository.
 
 Answer: Discuss using tasks like Azure Resource Manager or Terraform tasks to manage infrastructure creation and deletion within the pipeline workflow. Mention benefits like faster deployments and improved consistency.
 
@@ -67,3 +71,11 @@ Answer: Discuss using tasks like Azure Resource Manager or Terraform tasks to ma
 Scenario: How would you ensure overall security within your Azure Pipelines throughout the CI/CD process, from code building to deployment?
 
 Answer: Discuss a holistic approach, including secure code practices, vulnerability scanning, container image scanning, service principal usage with least privilege, and regular pipeline audits.
+--> devops+security
+1.CICD:
+ 1.1.build stage -->static code anayses
+ 1.2 image creation-->docker sccont
+ 1.3 image push--ACR--.vulnerability
+ 2.kubernetes
+.....................................................inerview quetion answer.....
+1.

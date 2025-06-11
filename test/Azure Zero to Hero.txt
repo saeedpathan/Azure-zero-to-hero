@@ -1,0 +1,103 @@
+---------------------Lecture1-----------------------------
+
+---------------------Lecture2-----------------------------
+
+---------------------Lecture3-----------------------------
+what is resource group
+-->RG basically is group of resources ex.VM+DB+webapp
+-->to track resources on that particular project
+1.resource:- to create instance of virtual machine
+2.resource manager:-is responsible to create resouces
+3.Resource group:-basically is grouping of resources
+---------------------Lecture4-----------------------------
+---------------HOW TO CONNECT VM USING GITBASH TERMINAL---------------------------
+ssh -i (path where ssh key is downloaded) username@ipaddress
+--> ssh -i /d/2024/azureagent_key.pem azureuser@20.66.56.38
+Q.you have to change permission for access vm because pem file are very secure
+1.how to change permission
+chmod 600 followed by location
+-->chmod 600  /d/2024/LINUX-VM_key.pem
+------------------how to installed jenkins on linux vm---------
+sudo apt update
+sudo apt install openjdk-17-jre
+java -version
+Now, you can proceed with installing Jenkins
+
+```
+curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo tee \
+  /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+  https://pkg.jenkins.io/debian binary/ | sudo tee \
+  /etc/apt/sources.list.d/jenkins.list > /dev/null
+sudo apt-get update
+sudo apt-get install jenkins
+------how to check jenkings installed or not-----
+jenkins --version
+
+-------------------Lecture5-----------------------------
+
+-------------------Lecture6-----------------------------
+..
+-------------------Lecture7-----------------------------
+1.how to change permission user to(switch to) root user
+ sudo su -
+2.HOW TO UPDATE UBANTU REPOSITORY
+apt-get update
+3.how to install nginx app
+apt-get install nginx -y
+4.how to create sipmle nginx file
+vim index.html
+<h1>simple networking concept </h1>
+5.Restart nginx app
+systemctl restart nginx
+6.how to check which port nginx app running
+curl localhost:80
+-------------------Lecture8-----------------------------
+
+interview quetion
+-------------------Lecture9-----------------------------
+azure storage 
+1.durability.....99.99  data secure
+2.performace
+3.secuity  (AD)
+this is primary advantages
+storage account
+1.blob(s3 in aws)->this is use for large amont of unstructure data image,vedios, source code,
+2.file(EFS)->send multiple vm or pods 1 and pods 2 we use file share
+3.table->is basicaly for no sql database  data store semi structure data, user data
+4.queues(SQUS)->basially proccess the requiest thousand of requiest
+-------------------Lecture9----09-05-25-------------------------
+Azure CLI cammand
+vnet+AKS+file sorage 
+using azure cli you can excute create  muliple vm+vnet quicky its very fast
+1.quick action
+2.automation
+3.reducing errors
+4.ARM template
+5.terrafarm
+---how to create VM-----
+az vm create `
+>>   --name Linux-VM `
+>>   --resource-group TEST1-RG `
+>>   --image Debian11 `
+>>   --admin-username sidbi-user `
+>>   --authentication-type password `
+>>   --admin-password 'Sidbi@123456'
+......................................................
+-------------------Lecture13----20-05-25-------------------------
+what is SDLC
+1.planing
+2.design
+3.development
+4.testing
+5.deployment
+6.monitoring
+1.Azure devops provide service to manage everything on one place
+
+.........
+1.board (planing)--.>used for palning
+2.Repos:(VCS)->devops engineer store source code
+3.pipline(CI/CD)
+4.test palning(planing test--automation testing)
+5.artifacts
+

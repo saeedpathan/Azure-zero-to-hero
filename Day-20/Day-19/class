@@ -1,0 +1,11 @@
+example.com 
+-->azure platform
+  -->blob--file->
+  to build monitoring system in your organisation
+  L1.Network compponent........network watcher service is best for monitoring network comppont vnet NSG,
+  L2.node node pool (vm scale set)...prometheus..mange k8S,vm,track prameter
+  L3.control plane  --azure monitor...using container mange kube cluster 
+  L4.pods/container-->prometheus 
+  L5.application performace monitoring...azure monitor application insghit
+  L6.monitor the other service, vm, storage acc, networking...azure monitor
+  ..you can monitoring above in one tools but not recomnded

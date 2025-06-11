@@ -1,0 +1,13 @@
+1.on-primises......1.data center..2.openstack
+ 1.1 maintance:->
+  1.2 upgreade:-upgreade aks manually 
+  1.3 cost...K8S cost is very less
+  1.4 scaling/avalablity
+  1.5 integration
+2.azure
+--->self managed kubernetes cluseter
+   2.1-->cost moderate (cost optimazation)
+   2.2 scaling/auto scalling
+3.aks-->azure managed kubernetes cluster:-azure manantaine and upgreade autimatically
+  3.1 less maintence
+  3.2 cost:-cost effective

@@ -1,0 +1,7 @@
+1.user (registration) microservce
+2.catalog microservice
+3.cart microservice
+4.payment
+5.shiping
+6.dispacth
+7.web (nginx)
